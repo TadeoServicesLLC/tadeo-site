@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import {
-  Activity,
+  Palette,
   BookOpen,
   CheckCircle,
   Download,
@@ -18,36 +18,55 @@ const services = [
     category: "Program Management",
     icon: <TrendingUp className="h-6 w-6 text-white" />,
     items: [
-      "Contract Management",
-      "Cost, Schedule, and Risk Management",
-      "Organizational Optimization",
-      "Resource Allocation",
-      "Team Building",
+      "Scope and Engineering Requirements",
+      "Budgets and Schedules",
+      "Resource Forecasting",
+      "Risk Management and Reporting",
+      "MS Project, MS Project Online, Anaplan, and Jira",
     ],
   },
   {
-    category: "Training",
+    category: "Training & Workflow Development",
     icon: <BookOpen className="h-6 w-6 text-white" />,
     items: [
-      "Training Video Development Services (IMI)",
-      "Training Instruction & Documentation",
-      "Training Delivery and Execution",
+      "Technical Manuals and Quick Start Guides",
+      "Student Guides and Lesson Plans",
+      "Operator/Maintainer Tasks",
+      "Training and Knowledge Transfer",
     ],
   },
   {
-    category: "CBRN & System",
-    icon: <Shield className="h-6 w-6 text-white" />,
-    items: ["Sensor", "Logistics"],
-  },
-  {
-    category: "Logistics & Support",
+    category: "Integrated Logistics Support (ILS)",
     icon: <Truck className="h-6 w-6 text-white" />,
-    items: ["Technical Manuals", "Provisioning", "Analyses", "LORA", "MTA", "FMECA"],
+    items: [
+      "Reliability Analysis",
+      "Maintenance Task Analysis",
+      "FMECA",
+      "Maintenance Concepts",
+      "LORA Development",
+      "Maintenance and Sustainment Support",
+    ],
   },
   {
-    category: "Spares & Sustainability",
-    icon: <Activity className="h-6 w-6 text-white" />,
-    items: ["Supportability", "Maintenance Planning", "SPIs", "RPSTL"],
+    category: "Graphic Design & Visual Communications",
+    icon: <Palette className="h-6 w-6 text-white" />,
+    items: [
+      "Capability Statements",
+      "Technical Illustrations and Infographics",
+      "Presentation and Briefing Materials",
+      "Training Graphics and Visual Learning Aids",
+      "Branding, Marketing Collateral, and Digital Content",
+    ],
+  },
+  {
+    category: "DoD Platform Integration",
+    icon: <Shield className="h-6 w-6 text-white" />,
+    items: [
+      "Light Weight Vehicle Surveillance System (LVSS)",
+      "Argus XL ADA C-UAS",
+      "Cerberus XL C-UAS",
+      "Integration of Program Management, Training, Logistics, Technical Documentation, and Visual Communications Across Complex DoD Systems",
+    ],
   },
 ];
 
@@ -63,7 +82,9 @@ const Capabilities = () => {
         >
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-5">Capabilities</h1>
           <p className="text-xl text-zinc-200 max-w-2xl mx-auto">
-            Practical expertise and dependable support for complex programs.
+            Integrated capabilities supporting complex defense and surveillance
+            programs, from program management and training to logistics, visual
+            communications, and DoD platform integration.
           </p>
         </motion.div>
 
@@ -114,10 +135,10 @@ const Capabilities = () => {
               <div className="flex items-center gap-3 mb-3">
                 <FileText className="h-7 w-7 text-white" />
                 <h2 id="capabilities-document-heading" className="text-3xl font-bold text-white">
-                  Capabilities Statement
+                  Company Profile
                 </h2>
               </div>
-              <p className="text-zinc-200">Preview or download our complete capabilities document.</p>
+              <p className="text-zinc-200">Preview or download our September 23, 2026 company profile.</p>
             </div>
             <a
               href={capabilitiesPdf}
@@ -133,10 +154,10 @@ const Capabilities = () => {
             <div className="w-full p-3 sm:p-5">
               <iframe
                 src={`${capabilitiesPdf}#view=FitH`}
-                title="Tadeo Services Capabilities Statement"
+                title="Tadeo Services Company Profile"
                 className="h-[560px] w-full rounded-xl bg-white"
               >
-                <a href={capabilitiesPdf} className="text-zinc-900 underline">Open the capabilities statement.</a>
+                <a href={capabilitiesPdf} className="text-zinc-900 underline">Open the company profile.</a>
               </iframe>
             </div>
           </GlassSurface>

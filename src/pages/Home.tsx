@@ -25,10 +25,11 @@ const Home = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-xl text-white mb-8 max-w-2xl"
               >
-                Located in Columbia, MD, we are a Women Veteran Owned Small
-                Business delivering trust, quality, and results through expert
-                Program, Contract, and Risk Management services to private,
-                government, state, and federal clients.
+                Tadeo Services LLC is a Women Veteran-Owned Small Business
+                (WVOSB) based in Columbia, Maryland, specializing in workflow
+                development, training solutions, DoD platform integration, and
+                creative communications support for government, defense, and
+                commercial organizations.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

@@ -24,13 +24,11 @@ const About = () => {
             >
               <div className="w-full p-6">
                 <p className="text-xl text-white leading-relaxed">
-                  Tadeo Services was created in October of 2020. Jennifer
-                  Medillin, the owner and founder, was looking for a new career
-                  venture during a time of uncertainty. While utilizing the
-                  resources around her, she was able to enhance her expertise
-                  and expand the business. The company that started as a
-                  one-woman-show has grown to a small team. Tadeo Services has
-                  50+ years of work experience that includes military veterans.
+                  Tadeo Services LLC is a Women Veteran-Owned Small Business
+                  (WVOSB) based in Columbia, Maryland, specializing in workflow
+                  development, training solutions, DoD platform integration, and
+                  creative communications support for government, defense, and
+                  commercial organizations.
                 </p>
               </div>
             </GlassSurface>
@@ -91,16 +89,19 @@ const About = () => {
             >
               <div className="w-full p-6">
                 <h3 className="text-xl font-semibold text-white mb-4">
-                  What is Important to Us
+                  Company Overview
                 </h3>
                 <p className="text-zinc-200 mb-4">
-                  We are a firm believer in trust, quality, and results for all
-                  of our clients: Private, Government, State, and Federal.
+                  We provide integrated Program Management, Training &amp;
+                  Workflow Development, Integrated Logistics Support (ILS),
+                  Graphic Design &amp; Visual Communications, and DoD Platform
+                  Integration capabilities supporting complex defense and
+                  surveillance programs.
                 </p>
                 <p className="text-zinc-200">
-                  We use our experience to assist our clients in managing their
-                  project schedules, cost versus risk, maximizing profits, and
-                  strengthening relationships.
+                  We deliver practical solutions that improve operational
+                  readiness, streamline knowledge transfer, and enhance
+                  organizational effectiveness.
                 </p>
               </div>
             </GlassSurface>
