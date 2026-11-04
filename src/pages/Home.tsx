@@ -17,7 +17,7 @@ const Home = () => {
                 transition={{ duration: 0.5 }}
                 className="text-4xl md:text-6xl font-bold text-white tracking-tight mb-6"
               >
-                Don't put off tomorrow what you can get done Tadeo!
+                Quality Service, People First.
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}

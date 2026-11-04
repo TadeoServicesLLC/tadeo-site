@@ -15,7 +15,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-zinc-500 text-sm mt-1">
-              Don't put off tomorrow what you can get done Tadeo!
+              Quality Service, People First. Competitive and reasonable labor rates.
             </p>
           </div>
           <div className="flex space-x-6">

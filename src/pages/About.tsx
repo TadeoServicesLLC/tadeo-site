@@ -43,12 +43,12 @@ const About = () => {
               <div className="w-48 h-48 bg-zinc-800 rounded-full flex items-center justify-center border-4 border-zinc-700 overflow-hidden shadow-xl mb-4">
                 <img
                   src="/jennifer-medillin.jpg"
-                  alt="Jennifer Medillin, Owner"
+                  alt="Jennifer Medillin, Owner &amp; Founder"
                   className="w-full h-full object-cover"
                 />
               </div>
               <span className="text-zinc-400 font-medium">
-                Jennifer Medillin, Owner
+                Jennifer Medillin, Owner &amp; Founder
               </span>
             </div>
           </motion.div>
@@ -94,9 +94,8 @@ const About = () => {
                 <p className="text-zinc-200 mb-4">
                   We provide integrated Program Management, Training &amp;
                   Workflow Development, Integrated Logistics Support (ILS),
-                  Graphic Design &amp; Visual Communications, and DoD Platform
-                  Integration capabilities supporting complex defense and
-                  surveillance programs.
+                  and DoD Platform Integration capabilities supporting complex
+                  defense and surveillance programs.
                 </p>
                 <p className="text-zinc-200">
                   We deliver practical solutions that improve operational
