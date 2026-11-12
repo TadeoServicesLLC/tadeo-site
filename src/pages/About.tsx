@@ -25,7 +25,9 @@ const About = () => {
               <div className="w-full p-6">
                 <p className="text-xl text-white leading-relaxed">
                   Tadeo Services LLC is a Women Veteran-Owned Small Business
-                  (WVOSB) based in Columbia, Maryland, specializing in workflow
+                  (WVOSB) based in Columbia, Maryland. We provide solutions to
+                  operational problems for prime contractors and government
+                  agencies. We specialize in workflow
                   development, training solutions, DoD platform integration, and
                   creative communications support for government, defense, and
                   commercial organizations.
@@ -92,15 +94,17 @@ const About = () => {
                   Company Overview
                 </h3>
                 <p className="text-zinc-200 mb-4">
-                  We provide integrated Program Management, Training &amp;
-                  Workflow Development, Integrated Logistics Support (ILS),
-                  and DoD Platform Integration capabilities supporting complex
-                  defense and surveillance programs.
-                </p>
-                <p className="text-zinc-200">
                   We deliver practical solutions that improve operational
                   readiness, streamline knowledge transfer, and enhance
                   organizational effectiveness.
+                </p>
+                <p className="text-zinc-200">
+                  We have successfully managed a 1.5 billion dollar program with
+                  a DOW prime contractor. Our
+                  training development and documentation are currently used by
+                  foreign military agencies, and our program managers use Jira
+                  and Anaplan to provide support on a 65 million program that is
+                  pending military delivery.
                 </p>
               </div>
             </GlassSurface>
