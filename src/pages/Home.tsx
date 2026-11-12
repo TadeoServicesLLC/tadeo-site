@@ -28,7 +28,7 @@ const Home = () => {
                 Tadeo Services LLC is a Women Veteran-Owned Small Business
                 (WVOSB) based in Columbia, Maryland, specializing in workflow
                 development, training solutions, integrated systems training,
-                development and documentation, ILS, DoD platform integration, and
+                development and documentation, ILS, DoW platform integration, and
                 creative communications support for government, defense, and
                 commercial organizations.
               </motion.p>

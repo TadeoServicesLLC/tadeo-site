@@ -28,7 +28,7 @@ const About = () => {
                   (WVOSB) based in Columbia, Maryland. We provide solutions to
                   operational problems for prime contractors and government
                   agencies. We specialize in workflow
-                  development, training solutions, DoD platform integration, and
+                  development, training solutions, DoW platform integration, and
                   creative communications support for government, defense, and
                   commercial organizations.
                 </p>

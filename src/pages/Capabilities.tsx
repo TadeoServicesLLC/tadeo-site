@@ -38,7 +38,7 @@ const services = [
     ],
   },
   {
-    category: "DoD Platform Integration",
+    category: "DoW Platform Integration",
     icon: <Shield className="h-6 w-6 text-white" />,
     items: [
       "Light Weight Vehicle Surveillance System (LVSS)",
@@ -61,7 +61,7 @@ const Capabilities = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-5">Capabilities</h1>
           <p className="text-xl text-zinc-200 max-w-2xl mx-auto">
             Integrated capabilities supporting complex defense and surveillance
-            programs, from program management and training to logistics and DoD
+            programs, from program management and training to logistics and DoW
             platform integration.
           </p>
         </motion.div>
